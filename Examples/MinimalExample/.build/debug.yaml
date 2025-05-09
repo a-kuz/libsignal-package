@@ -1,0 +1,100 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "LibSignalClient-arm64-apple-macosx15.0-debug.module": ["<LibSignalClient-arm64-apple-macosx15.0-debug.module>"]
+  "MinimalExample-arm64-apple-macosx15.0-debug.exe": ["<MinimalExample-arm64-apple-macosx15.0-debug.exe>"]
+  "MinimalExample-arm64-apple-macosx15.0-debug.module": ["<MinimalExample-arm64-apple-macosx15.0-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<MinimalExample-arm64-apple-macosx15.0-debug.exe>","<MinimalExample-arm64-apple-macosx15.0-debug.module>"]
+  "test": ["<MinimalExample-arm64-apple-macosx15.0-debug.exe>","<MinimalExample-arm64-apple-macosx15.0-debug.module>"]
+default: "main"
+nodes:
+  "/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/Sources/MinimalExample/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/MinimalExample":
+    is-mutated: true
+commands:
+  "/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/LibSignalClient.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Sources/LibSignalClient/LibSignalClient.swift"]
+    outputs: ["/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/LibSignalClient.build/sources"]
+    description: "Write auxiliary file /Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/LibSignalClient.build/sources"
+
+  "/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/MinimalExample-entitlement.plist":
+    tool: write-auxiliary-file
+    inputs: ["<entitlement-plist>","<com.apple.security.get-task-allow>"]
+    outputs: ["/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/MinimalExample-entitlement.plist"]
+    description: "Write auxiliary file /Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/MinimalExample-entitlement.plist"
+
+  "/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/MinimalExample.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/Sources/MinimalExample/main.swift"]
+    outputs: ["/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/MinimalExample.build/sources"]
+    description: "Write auxiliary file /Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/MinimalExample.build/sources"
+
+  "/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/MinimalExample.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/LibSignalClient.build/LibSignalClient.swift.o","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/MinimalExample.build/main.swift.o"]
+    outputs: ["/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/MinimalExample.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/MinimalExample.product/Objects.LinkFileList"
+
+  "/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"]
+    outputs: ["/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+
+  "<LibSignalClient-arm64-apple-macosx15.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/LibSignalClient.build/LibSignalClient.swift.o","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/Modules/LibSignalClient.swiftmodule"]
+    outputs: ["<LibSignalClient-arm64-apple-macosx15.0-debug.module>"]
+
+  "<MinimalExample-arm64-apple-macosx15.0-debug.exe>":
+    tool: phony
+    inputs: ["<MinimalExample-arm64-apple-macosx15.0-debug.exe-CodeSigning>"]
+    outputs: ["<MinimalExample-arm64-apple-macosx15.0-debug.exe>"]
+
+  "<MinimalExample-arm64-apple-macosx15.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/MinimalExample.build/main.swift.o","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/Modules/MinimalExample.swiftmodule"]
+    outputs: ["<MinimalExample-arm64-apple-macosx15.0-debug.module>"]
+
+  "C.LibSignalClient-arm64-apple-macosx15.0-debug.module":
+    tool: shell
+    inputs: ["/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Sources/LibSignalClient/LibSignalClient.swift","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/LibSignalClient.build/sources"]
+    outputs: ["/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/LibSignalClient.build/LibSignalClient.swift.o","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/Modules/LibSignalClient.swiftmodule"]
+    description: "Compiling Swift Module 'LibSignalClient' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","LibSignalClient","-emit-dependencies","-emit-module","-emit-module-path","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/Modules/LibSignalClient.swiftmodule","-output-file-map","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/LibSignalClient.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/LibSignalClient.build/sources","-I","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx10.15","-enable-batch-mode","-index-store-path","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j14","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/LibSignalClient.build/LibSignalClient-Swift.h","-color-diagnostics","-swift-version","5","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","simplifiedlibsignalclient"]
+
+  "C.MinimalExample-arm64-apple-macosx15.0-debug.exe":
+    tool: shell
+    inputs: ["/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/LibSignalClient.build/LibSignalClient.swift.o","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/MinimalExample.build/main.swift.o","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/MinimalExample.product/Objects.LinkFileList"]
+    outputs: ["/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/MinimalExample"]
+    description: "Linking ./.build/arm64-apple-macosx/debug/MinimalExample"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-L","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug","-o","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/MinimalExample","-module-name","MinimalExample","-Xlinker","-no_warn_duplicate_libraries","-emit-executable","-Xlinker","-alias","-Xlinker","_MinimalExample_main","-Xlinker","_main","-Xlinker","-rpath","-Xlinker","@loader_path","@/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/MinimalExample.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.5/macosx","-target","arm64-apple-macosx10.15","-Xlinker","-add_ast_path","-Xlinker","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/Modules/LibSignalClient.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/Modules/MinimalExample.swiftmodule","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g"]
+
+  "C.MinimalExample-arm64-apple-macosx15.0-debug.exe-entitlements":
+    tool: shell
+    inputs: ["/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/MinimalExample","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/MinimalExample-entitlement.plist"]
+    outputs: ["<MinimalExample-arm64-apple-macosx15.0-debug.exe-CodeSigning>"]
+    description: "Applying debug entitlements to ./.build/arm64-apple-macosx/debug/MinimalExample"
+    args: ["codesign","--force","--sign","-","--entitlements","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/MinimalExample-entitlement.plist","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/MinimalExample"]
+
+  "C.MinimalExample-arm64-apple-macosx15.0-debug.module":
+    tool: shell
+    inputs: ["/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/Sources/MinimalExample/main.swift","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/Modules/LibSignalClient.swiftmodule","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/MinimalExample.build/sources"]
+    outputs: ["/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/MinimalExample.build/main.swift.o","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/Modules/MinimalExample.swiftmodule"]
+    description: "Compiling Swift Module 'MinimalExample' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","MinimalExample","-emit-dependencies","-emit-module","-emit-module-path","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/Modules/MinimalExample.swiftmodule","-output-file-map","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/MinimalExample.build/output-file-map.json","-incremental","-c","@/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/MinimalExample.build/sources","-I","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx10.15","-enable-batch-mode","-index-store-path","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j14","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","MinimalExample_main","-color-diagnostics","-swift-version","5","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","minimalexample"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/Sources/MinimalExample/","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/Package.swift","/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

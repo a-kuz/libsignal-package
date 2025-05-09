@@ -1,0 +1,27 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "simplifiedlibsignalclient",
+          "kind" : "fileSystem",
+          "location" : "/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient",
+          "name" : "LibSignalClient"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient"
+        },
+        "subpath" : "simplifiedlibsignalclient"
+      }
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}

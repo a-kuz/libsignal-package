@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/LibSignalClient.build/master.swiftdeps"
+  },
+  "/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Sources/LibSignalClient/LibSignalClient.swift": {
+    "dependencies": "/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/LibSignalClient.build/LibSignalClient.d",
+    "object": "/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/LibSignalClient.build/LibSignalClient.swift.o",
+    "swiftmodule": "/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/LibSignalClient.build/LibSignalClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/LibSignalClient.build/LibSignalClient.swiftdeps"
+  }
+}
