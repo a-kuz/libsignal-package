@@ -1,4 +1,0 @@
-module LibSignalClient {
-    header "/Users/alexsandrkuznetsov/ws/libsignal/swift/SimplifiedLibSignalClient/Examples/MinimalExample/.build/arm64-apple-macosx/debug/LibSignalClient.build/LibSignalClient-Swift.h"
-    requires objc
-}

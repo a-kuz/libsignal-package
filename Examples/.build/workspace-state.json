@@ -1,0 +1,27 @@
+{
+  "object" : {
+    "artifacts" : [
+
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "libsignal-swift",
+          "kind" : "fileSystem",
+          "location" : "/Users/alexsandrkuznetsov/ws/libsignal-swift",
+          "name" : "LibSignalClient"
+        },
+        "state" : {
+          "name" : "fileSystem",
+          "path" : "/Users/alexsandrkuznetsov/ws/libsignal-swift"
+        },
+        "subpath" : "libsignal-swift"
+      }
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}

@@ -1,0 +1,2576 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.LibSignalClient-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/sources",
+      "importPath" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/AccountKeys.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Address.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Aes256Ctr.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Aes256Gcm.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Aes256GcmSiv.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/AsyncUtils.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Cds2.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/CdsTypes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/ChatConnection+Fake.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/ChatConnection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/ChatListener.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/ChatServiceTypes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/ComparableBackup.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/DataStoreInMemory.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/DataStoreProtocols.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/DataStoreUtils.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/DeviceTransfer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Error.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Fingerprint.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/HsmEnclave.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/IdentityKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/IncrementalMac.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/IoProtocols.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/IoUtils.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Kdf.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Kem.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/LibSignalClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Logging.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Media.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/MessageBackup.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/NativeHandleOwner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Net.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/PrivateKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Protocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/PublicKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/SealedSender.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/SealedSenderCertificates.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/ServiceId.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Sgx.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Svr2.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/TokioAsyncContext.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Username.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Utils.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/messages/CiphertextMessage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/messages/PlaintextContent.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/messages/PreKeySignalMessage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/messages/SenderKeyDistributionMessage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/messages/SenderKeyMessage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/messages/SignalMessage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/state/KyberPreKeyRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/state/PreKeyBundle.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/state/PreKeyRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/state/SenderKeyRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/state/SessionRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/state/SignedPreKeyRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/AuthCredentialPresentation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/AuthCredentialWithPni.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/AuthCredentialWithPniResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/BackupAuthCredential.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/BackupAuthCredentialPresentation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/BackupAuthCredentialRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/BackupAuthCredentialRequestContext.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/BackupAuthCredentialResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/BackupLevel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ByteArray.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CallLinkAuthCredential.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CallLinkAuthCredentialPresentation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CallLinkAuthCredentialResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CallLinkPublicParams.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CallLinkSecretParams.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ClientZkAuthOperations.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ClientZkGroupCipher.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ClientZkProfileOperations.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ClientZkReceiptOperations.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CreateCallLinkCredential.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CreateCallLinkCredentialPresentation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CreateCallLinkCredentialRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CreateCallLinkCredentialRequestContext.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CreateCallLinkCredentialResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ExpiringProfileKeyCredential.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ExpiringProfileKeyCredentialResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GenericServerPublicParams.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GenericServerSecretParams.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupIdentifier.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupMasterKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupPublicParams.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupSecretParams.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupSendDerivedKeyPair.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupSendEndorsement.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupSendEndorsementsResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupSendFullToken.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/NotarySignature.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKeyCiphertext.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKeyCommitment.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKeyCredentialPresentation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKeyCredentialRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKeyCredentialRequestContext.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKeyVersion.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/Randomness.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ReceiptCredential.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ReceiptCredentialPresentation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ReceiptCredentialRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ReceiptCredentialRequestContext.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ReceiptCredentialResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ReceiptSerial.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ServerPublicParams.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ServerSecretParams.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ServerZkAuthOperations.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ServerZkProfileOperations.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ServerZkReceiptOperations.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/UuidCiphertext.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "LibSignalClient",
+      "moduleOutputPath" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/Modules/LibSignalClient.swiftmodule",
+      "objects" : [
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/AccountKeys.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Address.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Aes256Ctr.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Aes256Gcm.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Aes256GcmSiv.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/AsyncUtils.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Cds2.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CdsTypes.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ChatConnection+Fake.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ChatConnection.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ChatListener.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ChatServiceTypes.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ComparableBackup.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/DataStoreInMemory.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/DataStoreProtocols.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/DataStoreUtils.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/DeviceTransfer.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Error.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Fingerprint.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/HsmEnclave.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/IdentityKey.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/IncrementalMac.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/IoProtocols.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/IoUtils.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Kdf.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Kem.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/LibSignalClient.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Logging.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Media.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/MessageBackup.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/NativeHandleOwner.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Net.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/PrivateKey.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Protocol.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/PublicKey.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/SealedSender.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/SealedSenderCertificates.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ServiceId.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Sgx.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Svr2.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/TokioAsyncContext.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Username.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Utils.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CiphertextMessage.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/PlaintextContent.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/PreKeySignalMessage.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/SenderKeyDistributionMessage.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/SenderKeyMessage.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/SignalMessage.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/KyberPreKeyRecord.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/PreKeyBundle.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/PreKeyRecord.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/SenderKeyRecord.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/SessionRecord.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/SignedPreKeyRecord.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/AuthCredentialPresentation.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/AuthCredentialWithPni.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/AuthCredentialWithPniResponse.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/BackupAuthCredential.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/BackupAuthCredentialPresentation.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/BackupAuthCredentialRequest.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/BackupAuthCredentialRequestContext.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/BackupAuthCredentialResponse.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/BackupLevel.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ByteArray.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CallLinkAuthCredential.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CallLinkAuthCredentialPresentation.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CallLinkAuthCredentialResponse.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CallLinkPublicParams.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CallLinkSecretParams.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ClientZkAuthOperations.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ClientZkGroupCipher.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ClientZkProfileOperations.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ClientZkReceiptOperations.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CreateCallLinkCredential.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CreateCallLinkCredentialPresentation.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CreateCallLinkCredentialRequest.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CreateCallLinkCredentialRequestContext.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CreateCallLinkCredentialResponse.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ExpiringProfileKeyCredential.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ExpiringProfileKeyCredentialResponse.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GenericServerPublicParams.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GenericServerSecretParams.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GroupIdentifier.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GroupMasterKey.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GroupPublicParams.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GroupSecretParams.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GroupSendDerivedKeyPair.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GroupSendEndorsement.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GroupSendEndorsementsResponse.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GroupSendFullToken.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/NotarySignature.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ProfileKey.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ProfileKeyCiphertext.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ProfileKeyCommitment.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ProfileKeyCredentialPresentation.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ProfileKeyCredentialRequest.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ProfileKeyCredentialRequestContext.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ProfileKeyVersion.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Randomness.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ReceiptCredential.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ReceiptCredentialPresentation.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ReceiptCredentialRequest.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ReceiptCredentialRequestContext.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ReceiptCredentialResponse.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ReceiptSerial.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ServerPublicParams.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ServerSecretParams.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ServerZkAuthOperations.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ServerZkProfileOperations.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ServerZkReceiptOperations.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/UuidCiphertext.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.15",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/SignalFfi/module.modulemap",
+        "-module-cache-path",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/LibSignalClient-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-enable-experimental-feature",
+        "StrictConcurrency",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "libsignal_swift"
+      ],
+      "outputFileMapPath" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/AccountKeys.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Address.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Aes256Ctr.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Aes256Gcm.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Aes256GcmSiv.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/AsyncUtils.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Cds2.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CdsTypes.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ChatConnection+Fake.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ChatConnection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ChatListener.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ChatServiceTypes.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ComparableBackup.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/DataStoreInMemory.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/DataStoreProtocols.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/DataStoreUtils.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/DeviceTransfer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Error.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Fingerprint.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/HsmEnclave.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/IdentityKey.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/IncrementalMac.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/IoProtocols.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/IoUtils.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Kdf.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Kem.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/LibSignalClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Logging.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Media.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/MessageBackup.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/NativeHandleOwner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Net.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/PrivateKey.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Protocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/PublicKey.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/SealedSender.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/SealedSenderCertificates.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ServiceId.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Sgx.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Svr2.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/TokioAsyncContext.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Username.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Utils.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CiphertextMessage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/PlaintextContent.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/PreKeySignalMessage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/SenderKeyDistributionMessage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/SenderKeyMessage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/SignalMessage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/KyberPreKeyRecord.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/PreKeyBundle.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/PreKeyRecord.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/SenderKeyRecord.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/SessionRecord.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/SignedPreKeyRecord.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/AuthCredentialPresentation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/AuthCredentialWithPni.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/AuthCredentialWithPniResponse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/BackupAuthCredential.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/BackupAuthCredentialPresentation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/BackupAuthCredentialRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/BackupAuthCredentialRequestContext.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/BackupAuthCredentialResponse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/BackupLevel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ByteArray.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CallLinkAuthCredential.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CallLinkAuthCredentialPresentation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CallLinkAuthCredentialResponse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CallLinkPublicParams.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CallLinkSecretParams.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ClientZkAuthOperations.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ClientZkGroupCipher.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ClientZkProfileOperations.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ClientZkReceiptOperations.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CreateCallLinkCredential.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CreateCallLinkCredentialPresentation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CreateCallLinkCredentialRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CreateCallLinkCredentialRequestContext.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CreateCallLinkCredentialResponse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ExpiringProfileKeyCredential.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ExpiringProfileKeyCredentialResponse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GenericServerPublicParams.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GenericServerSecretParams.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GroupIdentifier.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GroupMasterKey.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GroupPublicParams.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GroupSecretParams.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GroupSendDerivedKeyPair.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GroupSendEndorsement.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GroupSendEndorsementsResponse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GroupSendFullToken.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/NotarySignature.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ProfileKey.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ProfileKeyCiphertext.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ProfileKeyCommitment.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ProfileKeyCredentialPresentation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ProfileKeyCredentialRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ProfileKeyCredentialRequestContext.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ProfileKeyVersion.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Randomness.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ReceiptCredential.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ReceiptCredentialPresentation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ReceiptCredentialRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ReceiptCredentialRequestContext.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ReceiptCredentialResponse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ReceiptSerial.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ServerPublicParams.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ServerSecretParams.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ServerZkAuthOperations.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ServerZkProfileOperations.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ServerZkReceiptOperations.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/UuidCiphertext.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/Modules/LibSignalClient.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/AccountKeys.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Address.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Aes256Ctr.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Aes256Gcm.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Aes256GcmSiv.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/AsyncUtils.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Cds2.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/CdsTypes.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/ChatConnection+Fake.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/ChatConnection.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/ChatListener.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/ChatServiceTypes.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/ComparableBackup.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/DataStoreInMemory.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/DataStoreProtocols.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/DataStoreUtils.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/DeviceTransfer.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Error.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Fingerprint.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/HsmEnclave.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/IdentityKey.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/IncrementalMac.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/IoProtocols.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/IoUtils.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Kdf.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Kem.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/LibSignalClient.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Logging.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Media.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/MessageBackup.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/NativeHandleOwner.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Net.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/PrivateKey.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Protocol.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/PublicKey.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/SealedSender.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/SealedSenderCertificates.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/ServiceId.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Sgx.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Svr2.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/TokioAsyncContext.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Username.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Utils.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/messages/CiphertextMessage.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/messages/PlaintextContent.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/messages/PreKeySignalMessage.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/messages/SenderKeyDistributionMessage.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/messages/SenderKeyMessage.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/messages/SignalMessage.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/state/KyberPreKeyRecord.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/state/PreKeyBundle.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/state/PreKeyRecord.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/state/SenderKeyRecord.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/state/SessionRecord.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/state/SignedPreKeyRecord.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/AuthCredentialPresentation.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/AuthCredentialWithPni.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/AuthCredentialWithPniResponse.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/BackupAuthCredential.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/BackupAuthCredentialPresentation.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/BackupAuthCredentialRequest.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/BackupAuthCredentialRequestContext.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/BackupAuthCredentialResponse.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/BackupLevel.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ByteArray.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CallLinkAuthCredential.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CallLinkAuthCredentialPresentation.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CallLinkAuthCredentialResponse.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CallLinkPublicParams.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CallLinkSecretParams.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ClientZkAuthOperations.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ClientZkGroupCipher.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ClientZkProfileOperations.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ClientZkReceiptOperations.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CreateCallLinkCredential.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CreateCallLinkCredentialPresentation.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CreateCallLinkCredentialRequest.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CreateCallLinkCredentialRequestContext.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CreateCallLinkCredentialResponse.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ExpiringProfileKeyCredential.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ExpiringProfileKeyCredentialResponse.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GenericServerPublicParams.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GenericServerSecretParams.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupIdentifier.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupMasterKey.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupPublicParams.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupSecretParams.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupSendDerivedKeyPair.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupSendEndorsement.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupSendEndorsementsResponse.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupSendFullToken.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/NotarySignature.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKey.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKeyCiphertext.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKeyCommitment.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKeyCredentialPresentation.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKeyCredentialRequest.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKeyCredentialRequestContext.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKeyVersion.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/Randomness.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ReceiptCredential.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ReceiptCredentialPresentation.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ReceiptCredentialRequest.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ReceiptCredentialRequestContext.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ReceiptCredentialResponse.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ReceiptSerial.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ServerPublicParams.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ServerSecretParams.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ServerZkAuthOperations.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ServerZkProfileOperations.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ServerZkReceiptOperations.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/UuidCiphertext.swift"
+      ],
+      "tempsPath" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SignalExample-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/SignalExample.build/sources",
+      "importPath" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/BasicExample.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/Modules/LibSignalClient.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/SignalExample.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "SignalExample",
+      "moduleOutputPath" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/Modules/SignalExample.swiftmodule",
+      "objects" : [
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/SignalExample.build/BasicExample.swift.o",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/SignalExample.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.15",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/SignalFfi/module.modulemap",
+        "-module-cache-path",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "SignalExample_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "examples"
+      ],
+      "outputFileMapPath" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/SignalExample.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/SignalExample.build/BasicExample.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/SignalExample.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/Modules/SignalExample.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/BasicExample.swift",
+        "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/main.swift"
+      ],
+      "tempsPath" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/SignalExample.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "LibSignalClient" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "LibSignalClient",
+      "-package-name",
+      "libsignal_swift",
+      "-incremental",
+      "-c",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/AccountKeys.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Address.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Aes256Ctr.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Aes256Gcm.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Aes256GcmSiv.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/AsyncUtils.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Cds2.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/CdsTypes.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/ChatConnection+Fake.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/ChatConnection.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/ChatListener.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/ChatServiceTypes.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/ComparableBackup.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/DataStoreInMemory.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/DataStoreProtocols.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/DataStoreUtils.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/DeviceTransfer.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Error.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Fingerprint.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/HsmEnclave.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/IdentityKey.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/IncrementalMac.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/IoProtocols.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/IoUtils.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Kdf.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Kem.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/LibSignalClient.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Logging.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Media.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/MessageBackup.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/NativeHandleOwner.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Net.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/PrivateKey.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Protocol.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/PublicKey.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/SealedSender.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/SealedSenderCertificates.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/ServiceId.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Sgx.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Svr2.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/TokioAsyncContext.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Username.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Utils.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/messages/CiphertextMessage.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/messages/PlaintextContent.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/messages/PreKeySignalMessage.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/messages/SenderKeyDistributionMessage.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/messages/SenderKeyMessage.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/messages/SignalMessage.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/state/KyberPreKeyRecord.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/state/PreKeyBundle.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/state/PreKeyRecord.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/state/SenderKeyRecord.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/state/SessionRecord.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/state/SignedPreKeyRecord.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/AuthCredentialPresentation.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/AuthCredentialWithPni.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/AuthCredentialWithPniResponse.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/BackupAuthCredential.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/BackupAuthCredentialPresentation.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/BackupAuthCredentialRequest.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/BackupAuthCredentialRequestContext.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/BackupAuthCredentialResponse.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/BackupLevel.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ByteArray.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CallLinkAuthCredential.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CallLinkAuthCredentialPresentation.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CallLinkAuthCredentialResponse.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CallLinkPublicParams.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CallLinkSecretParams.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ClientZkAuthOperations.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ClientZkGroupCipher.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ClientZkProfileOperations.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ClientZkReceiptOperations.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CreateCallLinkCredential.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CreateCallLinkCredentialPresentation.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CreateCallLinkCredentialRequest.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CreateCallLinkCredentialRequestContext.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CreateCallLinkCredentialResponse.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ExpiringProfileKeyCredential.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ExpiringProfileKeyCredentialResponse.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GenericServerPublicParams.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GenericServerSecretParams.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupIdentifier.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupMasterKey.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupPublicParams.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupSecretParams.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupSendDerivedKeyPair.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupSendEndorsement.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupSendEndorsementsResponse.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupSendFullToken.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/NotarySignature.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKey.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKeyCiphertext.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKeyCommitment.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKeyCredentialPresentation.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKeyCredentialRequest.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKeyCredentialRequestContext.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKeyVersion.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/Randomness.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ReceiptCredential.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ReceiptCredentialPresentation.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ReceiptCredentialRequest.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ReceiptCredentialRequestContext.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ReceiptCredentialResponse.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ReceiptSerial.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ServerPublicParams.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ServerSecretParams.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ServerZkAuthOperations.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ServerZkProfileOperations.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ServerZkReceiptOperations.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/UuidCiphertext.swift",
+      "-I",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.15",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j14",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-Xcc",
+      "-fmodule-map-file=/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/SignalFfi/module.modulemap",
+      "-module-cache-path",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/LibSignalClient-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-enable-experimental-feature",
+      "StrictConcurrency",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "libsignal_swift",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SignalExample" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SignalExample",
+      "-package-name",
+      "examples",
+      "-incremental",
+      "-c",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/BasicExample.swift",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/main.swift",
+      "-I",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.15",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j14",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-Xcc",
+      "-fmodule-map-file=/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/SignalFfi/module.modulemap",
+      "-module-cache-path",
+      "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "SignalExample_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.4.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "examples",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "LibSignalClient" : [
+      "SignalFfi"
+    ],
+    "SignalExample" : [
+      "LibSignalClient",
+      "SignalFfi"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/AccountKeys.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Address.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Aes256Ctr.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Aes256Gcm.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Aes256GcmSiv.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/AsyncUtils.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Cds2.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/CdsTypes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/ChatConnection+Fake.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/ChatConnection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/ChatListener.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/ChatServiceTypes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/ComparableBackup.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/DataStoreInMemory.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/DataStoreProtocols.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/DataStoreUtils.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/DeviceTransfer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Error.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Fingerprint.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/HsmEnclave.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/IdentityKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/IncrementalMac.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/IoProtocols.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/IoUtils.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Kdf.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Kem.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/LibSignalClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Logging.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Media.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/MessageBackup.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/NativeHandleOwner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Net.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/PrivateKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Protocol.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/PublicKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/SealedSender.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/SealedSenderCertificates.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/ServiceId.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Sgx.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Svr2.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/TokioAsyncContext.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Username.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/Utils.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/messages/CiphertextMessage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/messages/PlaintextContent.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/messages/PreKeySignalMessage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/messages/SenderKeyDistributionMessage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/messages/SenderKeyMessage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/messages/SignalMessage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/state/KyberPreKeyRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/state/PreKeyBundle.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/state/PreKeyRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/state/SenderKeyRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/state/SessionRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/state/SignedPreKeyRecord.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/AuthCredentialPresentation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/AuthCredentialWithPni.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/AuthCredentialWithPniResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/BackupAuthCredential.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/BackupAuthCredentialPresentation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/BackupAuthCredentialRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/BackupAuthCredentialRequestContext.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/BackupAuthCredentialResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/BackupLevel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ByteArray.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CallLinkAuthCredential.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CallLinkAuthCredentialPresentation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CallLinkAuthCredentialResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CallLinkPublicParams.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CallLinkSecretParams.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ClientZkAuthOperations.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ClientZkGroupCipher.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ClientZkProfileOperations.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ClientZkReceiptOperations.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CreateCallLinkCredential.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CreateCallLinkCredentialPresentation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CreateCallLinkCredentialRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CreateCallLinkCredentialRequestContext.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/CreateCallLinkCredentialResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ExpiringProfileKeyCredential.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ExpiringProfileKeyCredentialResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GenericServerPublicParams.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GenericServerSecretParams.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupIdentifier.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupMasterKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupPublicParams.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupSecretParams.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupSendDerivedKeyPair.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupSendEndorsement.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupSendEndorsementsResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/GroupSendFullToken.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/NotarySignature.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKey.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKeyCiphertext.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKeyCommitment.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKeyCredentialPresentation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKeyCredentialRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKeyCredentialRequestContext.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ProfileKeyVersion.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/Randomness.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ReceiptCredential.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ReceiptCredentialPresentation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ReceiptCredentialRequest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ReceiptCredentialRequestContext.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ReceiptCredentialResponse.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ReceiptSerial.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ServerPublicParams.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ServerSecretParams.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ServerZkAuthOperations.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ServerZkProfileOperations.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/ServerZkReceiptOperations.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Sources/LibSignalClient/zkgroup/UuidCiphertext.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/sources"
+    },
+    "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/SignalExample-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/SignalExample-entitlement.plist"
+    },
+    "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/SignalExample.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/BasicExample.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/SignalExample.build/sources"
+    },
+    "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/SignalExample.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/AccountKeys.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Address.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Aes256Ctr.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Aes256Gcm.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Aes256GcmSiv.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/AsyncUtils.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/AuthCredentialPresentation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/AuthCredentialWithPni.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/AuthCredentialWithPniResponse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/BackupAuthCredential.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/BackupAuthCredentialPresentation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/BackupAuthCredentialRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/BackupAuthCredentialRequestContext.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/BackupAuthCredentialResponse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/BackupLevel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ByteArray.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CallLinkAuthCredential.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CallLinkAuthCredentialPresentation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CallLinkAuthCredentialResponse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CallLinkPublicParams.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CallLinkSecretParams.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Cds2.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CdsTypes.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ChatConnection+Fake.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ChatConnection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ChatListener.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ChatServiceTypes.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CiphertextMessage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ClientZkAuthOperations.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ClientZkGroupCipher.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ClientZkProfileOperations.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ClientZkReceiptOperations.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ComparableBackup.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CreateCallLinkCredential.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CreateCallLinkCredentialPresentation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CreateCallLinkCredentialRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CreateCallLinkCredentialRequestContext.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/CreateCallLinkCredentialResponse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/DataStoreInMemory.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/DataStoreProtocols.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/DataStoreUtils.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/DeviceTransfer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Error.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ExpiringProfileKeyCredential.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ExpiringProfileKeyCredentialResponse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Fingerprint.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GenericServerPublicParams.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GenericServerSecretParams.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GroupIdentifier.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GroupMasterKey.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GroupPublicParams.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GroupSecretParams.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GroupSendDerivedKeyPair.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GroupSendEndorsement.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GroupSendEndorsementsResponse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/GroupSendFullToken.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/HsmEnclave.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/IdentityKey.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/IncrementalMac.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/IoProtocols.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/IoUtils.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Kdf.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Kem.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/KyberPreKeyRecord.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/LibSignalClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Logging.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Media.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/MessageBackup.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/NativeHandleOwner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Net.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/NotarySignature.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/PlaintextContent.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/PreKeyBundle.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/PreKeyRecord.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/PreKeySignalMessage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/PrivateKey.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ProfileKey.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ProfileKeyCiphertext.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ProfileKeyCommitment.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ProfileKeyCredentialPresentation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ProfileKeyCredentialRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ProfileKeyCredentialRequestContext.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ProfileKeyVersion.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Protocol.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/PublicKey.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Randomness.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ReceiptCredential.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ReceiptCredentialPresentation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ReceiptCredentialRequest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ReceiptCredentialRequestContext.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ReceiptCredentialResponse.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ReceiptSerial.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/SealedSender.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/SealedSenderCertificates.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/SenderKeyDistributionMessage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/SenderKeyMessage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/SenderKeyRecord.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ServerPublicParams.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ServerSecretParams.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ServerZkAuthOperations.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ServerZkProfileOperations.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ServerZkReceiptOperations.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/ServiceId.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/SessionRecord.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Sgx.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/SignalMessage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/SignedPreKeyRecord.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Svr2.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/TokioAsyncContext.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Username.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/Utils.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/LibSignalClient.build/UuidCiphertext.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/SignalExample.build/BasicExample.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/SignalExample.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/SignalExample.product/Objects.LinkFileList"
+    },
+    "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

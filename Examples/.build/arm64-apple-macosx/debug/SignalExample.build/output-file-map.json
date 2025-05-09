@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/SignalExample.build/master.swiftdeps"
+  },
+  "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/BasicExample.swift": {
+    "dependencies": "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/SignalExample.build/BasicExample.d",
+    "object": "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/SignalExample.build/BasicExample.swift.o",
+    "swiftmodule": "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/SignalExample.build/BasicExample~partial.swiftmodule",
+    "swift-dependencies": "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/SignalExample.build/BasicExample.swiftdeps"
+  },
+  "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/main.swift": {
+    "dependencies": "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/SignalExample.build/main.d",
+    "object": "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/SignalExample.build/main.swift.o",
+    "swiftmodule": "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/SignalExample.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/alexsandrkuznetsov/ws/libsignal-swift/Examples/.build/arm64-apple-macosx/debug/SignalExample.build/main.swiftdeps"
+  }
+}
